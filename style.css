@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(30, 54%, 90%);
+    /* font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    /* font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 45%;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.contentContainer {
+    padding: 23px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: hsl(24, 5%, 18%);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+}
+
+span {
+    font-family: "Outfit", sans-serif;
+    font-size: small;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5rem;
+}
+
+.recipe {
+    padding: 10px;
+}
+
+.preparationTime {
+    padding: 20px;
+    padding-left: 40px;
+    line-height: 1.8rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+}
+
+.preparationTime h4 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparationTime ul {
+    padding-left: 30px;
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+.preparationTime li {
+    padding-left: 10px;
+}
+
+.ingredients {
+    padding: 10px;
+    line-height: 1.8rem;
+}
+
+.ingredients h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.ingredients ul {
+    padding-left: 25px;
+}
+
+.ingredients li {
+    padding-left: 10px;
+}
+
+.instructions {
+    padding: 10px;
+}
+
+.instructions ol {
+    padding-left: 25px;
+}
+
+.instructions li {
+    padding-left: 10px;
+}
+
+.instructions h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nutrition {
+    padding: 10px;
+}
+
+.nutrition h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nutrition p {
+    color: hsl(30, 10%, 34%);
+}
+
+.nutritionContent {
+    padding: 20px;
+}
+
+.NC {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2.0rem;
+
+}
+
+.NC p {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.border {
+    width: 100%;
+    border: 1px solid hsl(30, 18%, 87%)
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+
+    .preparationTime {
+        padding: 15px;
+        padding-left: 30px;
+        line-height: 1.6rem;
+    }
+
+    .preparationTime ul {
+        padding-left: 20px;
+    }
+
+    .preparationTime li {
+        padding-left: 5px;
+    }
+
+    .ingredients ul {
+        padding-left: 20px;
+    }
+
+    .instructions ol {
+        padding-left: 20px;
+    }
+}
